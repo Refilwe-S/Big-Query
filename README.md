@@ -1,36 +1,58 @@
-BigQuery Practicals – Retail Sales Data
+Retail Sales Analysis | BigQuery Project
 
-Repository Contents
+Refilwe Sebako
+Pretoria, South Africa 🇿🇦
+[refilwee.sebako@gmail.com]
 
-Practical.sql
-  Contains all SQL queries used to analyze the Sales dataset in BigQuery.
-
-Big Query Practicals Results.pdf
-  Contains screenshots / outputs of all query results from the practical exercises.
 
 Project Overview
 
-This project demonstrates data analysis using Google BigQuery on a Retail Sales dataset.
-The goal is to apply SQL concepts to extract insights and answer business questions.
+This project presents an end-to-end retail sales data analysis using Google BigQuery, with the goal of uncovering insights that support business decision-making.
 
-Skills Applied
+The analysis focuses on revenue performance, customer behavior, and product trends, and is supported by an interactive dashboard.
 
-* SQL Filtering (`WHERE`)
-* Subqueries
-* Aggregations (`SUM`, `AVG`)
-* Grouping (`GROUP BY`)
-* Conditional Logic (`CASE`)
-* Data Transformation
-* Analytical Thinking
+
+Business Problem
+
+Retail businesses need to understand:
+
+* Which products generate the most revenue
+* Who their high-value customers are
+* How sales trends change over time
+
+This project answers these questions using structured SQL analysis and data visualization.
+
+
+Live Dashboard
+
+[View Retail Sales Analysis Dashboard](https://retailsalesanalysis.lovable.app)
+
+
+
+Key Insights
+
+Identified transactions generating above-average revenue
+Observed sales trends across time periods
+Analyzed customer purchasing behavior
+Determined top-performing product categories
+Segmented customers by age group and spending patterns
+
+Skills Demonstrated
+
+* SQL (BigQuery)
+* Data Cleaning & Transformation
+* Aggregations & Subqueries
+* Data Segmentation (CASE statements)
+* Business Insight Generation
+* Dashboard Interpretation
 
 
 Dataset
 
-Table used:
+Table Used:
+`project-big-query-493417.Query.Sales`
 
-project-big-query-493417.Query.Sales
-
-The dataset includes:
+Key Fields:
 
 * Customer ID
 * Age
@@ -42,82 +64,90 @@ The dataset includes:
 * Transaction Date
 
 
-Key Analysis Performed
+Analysis Breakdown
 
-1. Filter Transactions by Year
+Time-Based Analysis
 
-Retrieved all transactions from 2023.
+* Filtered transactions by year (e.g., 2023)
 
-2. High-Value Transactions
+Revenue Analysis
 
-Filtered transactions where total amount is above average.
+* Calculated total revenue
+* Identified high-value transactions (above average sales)
 
-3. Total Revenue
+Product Analysis
 
-Calculated total sales revenue.
+* Extracted unique product categories
+* Measured total quantity sold per category
 
-4. Product Categories
+Customer Segmentation
 
-Identified unique product categories.
+* Grouped customers into:
 
-5. Sales by Category
+  * Youth
+  * Adult
+  * Senior
 
-Calculated total quantity sold per category.
+Behavioral Insights
 
-6. Customer Segmentation
+* Analyzed high-value transactions by gender
+* Identified spending patterns for customers aged 40+
 
-Classified customers into:
+Pricing Analysis
 
-* Youth
-* Adult
-* Senior
+* Classified products as:
 
-7. High-Value Transactions by Gender
+  * Cheap
+  * Moderate
+  * Expensive
 
-Counted transactions above 500 per gender.
+Threshold Analysis
 
-8. Revenue Threshold Filtering
+* Filtered categories generating revenue above 5000
 
-Displayed categories with revenue above 5000.
+Repository Structure
 
-9. Price Classification
+```bash
+Retail Sales Analysis
+ ┣ 📄 README.md
+ ┣ 📄 Practical.sql
+ ┣ 🖼️ dashboard.png
+ ┗ 📄 Big Query Practicals Results.pdf
 
-Classified products as:
 
-* Cheap
-* Moderate
-* Expensive
+Dashboard Preview
 
-10. Spending Behavior
+![Dashboard Preview](./dashboard.png)
 
-Identified high vs low spending customers aged 40+.
-
-Tools Used
+Tools & Technologies
 
 * Google BigQuery
+* SQL
+* Lovable (Dashboard)
+* Microsoft Excel / Word
 * GitHub
-* Microsoft Word
-
 
 Outcome
 
 This project demonstrates the ability to:
 
-* Write efficient SQL queries
-* Perform data analysis in BigQuery
-* Translate business questions into data insights
-
+* Write efficient SQL queries for real-world datasets
+* Transform raw data into meaningful insights
+* Analyze customer and product performance
+* Present findings through a professional dashboard
 
 How to Use
 
-1. Open Practical.sql
+1. Open `Practical.sql`
 2. Run queries in BigQuery
-3. View results in Big Query Practicals Results.pdf
+3. Review outputs in `Big Query Practicals Results.pdf`
+4. Explore the live dashboard
 
 
-Author
+Let’s Connect
 
-Refilwe Sebako
-Data Analytics & Virtual Assistant Professional
-South Africa 🇿🇦
+Email: [refilwee.sebako@gmail.com]
+LinkedIn: www.linkedin.com/in/resebako
 
+
+Open to remote opportunities in Data Analytics, Virtual Assistance & Operations Support
