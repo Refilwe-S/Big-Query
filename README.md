@@ -122,7 +122,6 @@ Dashboard Preview
 Tools & Technologies
 
 * Google BigQuery
-* SQL
 * Lovable (Dashboard)
 * Microsoft Excel / Word
 * GitHub
