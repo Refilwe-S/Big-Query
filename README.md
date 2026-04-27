@@ -109,10 +109,10 @@ Repository Structure
 
 ```bash
 Retail Sales Analysis
- ┣ 📄 README.md
- ┣ 📄 Practical.sql
- ┣ 🖼️ dashboard.png
- ┗ 📄 Big Query Practicals Results.pdf
+ ┣ README.md
+ ┣ Practical.sql
+ ┣ dashboard.png
+ ┗ Big Query Practicals Results.pdf
 
 
 Dashboard Preview
